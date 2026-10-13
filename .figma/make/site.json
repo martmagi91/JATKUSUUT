@@ -1,0 +1,11 @@
+{
+  "title": "Jätkusuutlikkuse nädal",
+  "description": "Creates simple, clean HTML webpages to help users quickly build and showcase content with ease and efficiency.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
