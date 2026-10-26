@@ -366,8 +366,27 @@ function Footer() {
   return (
     <>
       <aside className="closing">
-        <ResponsiveIcon desktop="48ec9.svg" mobile="cabcb.svg" />
-        <p>Tule osalema ja saad teadlikumaks!</p>
+        <div className="closing-message">
+          <ResponsiveIcon desktop="48ec9.svg" mobile="cabcb.svg" />
+          <p>Tule osalema ja saad teadlikumaks!</p>
+        </div>
+        <div className="closing-logos" aria-label="Partnerid">
+          <picture>
+            <source media="(max-width: 767px)" srcSet={`${A}/e5aa8.svg`} />
+            <img src={`${A}/a7c2d.svg`} alt="Terve Kool" />
+          </picture>
+          <picture>
+            <source media="(max-width: 767px)" srcSet={`${A}/9e16f.svg`} />
+            <img
+              src={`${A}/280e1.svg`}
+              alt="Euroopa Liit, Euroopa Regionaalarengu Fond ja Eesti tuleviku heaks"
+            />
+          </picture>
+          <picture>
+            <source media="(max-width: 767px)" srcSet={`${A}/bdfb0.svg`} />
+            <img src={`${A}/ac4a9.svg`} alt="Inseneriakadeemia" />
+          </picture>
+        </div>
       </aside>
       <footer>
         <div className="footer-nav">
